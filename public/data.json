@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "name": "Coding for Kids",
+        "price": 55,
+        "img" : "https://img.freepik.com/free-photo/he-programs-remote-control-system-laptop-online-tutoring-classes-robot-creation_616370-426.jpg?w=996"},
+    {
+        "id": 2,
+        "name": "Data Analytics",
+        "price": 110,
+        "img" : "https://img.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room_74952-1410.jpg?w=1060&t=st=1648223349~exp=1648223949~hmac=5d56ca05858ea1d69f9677c511099338a59688d8a7236f32d6a787e734a2b42f"},
+    {
+        "id": 3,
+        "name": "Web Development",
+        "price": 90,
+        "img":"https://img.freepik.com/free-photo/online-web-design_53876-95309.jpg?w=996&t=st=1648223573~exp=1648224173~hmac=f26a6e05aec3fa418c41ce5a39649bdc5770fde24a1d0f2b3ed3043826b7e843"},
+
+        {
+        "id": 4,
+        "name": "CSE Fundamentals",
+        "price": 100,
+        "img" : "https://img.freepik.com/free-photo/programming-software-code-application-technology-concept_53876-123931.jpg?w=996&t=st=1648223604~exp=1648224204~hmac=2c3fdef148ef8514532b144671e4a83a025cf2b2ca8fd03eb54e2f7b944a80af"},
+        {
+        "id": 5,
+        "name": "Machine Learning",
+        "price": 120,
+        "img" : "https://img.freepik.com/free-photo/computer-screens-running-programming-code-empty-software-developing-agency-office-computers-parsing-data-algorithms-background-neural-network-servers-cloud-computing-data-room_482257-33353.jpg?w=1060&t=st=1648223632~exp=1648224232~hmac=d4a891e59c041febc988c835d5fcbe467bc7b5255c3a95d80d6a6e210082ac23"},
+
+        {
+        "id": 6,
+        "name": "Data Structure & Algorithms",
+        "price": 100,
+        "img" : "https://img.freepik.com/free-photo/close-up-image-programer-working-his-desk-office_1098-18707.jpg?t=st=1648223776~exp=1648224376~hmac=dfcde1d39ba28105ca5476286f3857a5fdb88eecca474a3811cf50c5754bcbd7&w=996"},
+    {
+        "id": 7,
+        "name": "Arabic Language",
+        "price": 80,
+        "img" :"https://img.freepik.com/free-photo/close-up-islamic-new-year-with-quran-book_23-2148611710.jpg?w=996&t=st=1648223272~exp=1648223872~hmac=f9e503adc6b49ad88420a54e80c1f2e5e896e678883a05ab18a21bd38d3ee2ef"},
+    {
+        "id": 8,
+        "name": "English Language",
+        "price": 80,
+        "img" : "https://img.freepik.com/free-photo/learn-english-online_2227-341.jpg?w=1060"},
+    {
+        "id": 9,
+        "name": "Artificial Intelligence",
+        "price": 120,
+        "img" : "https://img.freepik.com/free-photo/ai-technology-brain-background-digital-transformation-concept_53876-124672.jpg?t=st=1648227189~exp=1648227789~hmac=49b747ec73589af34b1ca5639c3094687a365ea678998a3b700a739590715953&w=996"}
+]
