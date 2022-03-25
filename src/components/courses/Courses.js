@@ -33,14 +33,28 @@ const Courses = () => {
         newSelectedItems=[...rest,newCourse]
         alert('You can not slected a course twice, We will remove the previous one and add the last one ')
        }
+     if(newSelectedItems.indexOf(newCourse)>3){
+         newSelectedItems.pop()
+         alert('Selecting more than 4 courses at a time is not allowed')
+     }
 
-    //    if (newSelectedItems.indexOf(newCourse)===-1){
-    //     newSelectedItems=[...selectedItems,newCourse]
-    //    }
+       
+    
        console.log(newSelectedItems);
 
-    //  if (newSelectedItems.in )
+
+
+   
        setSelectedItems(newSelectedItems)
+
+    //    for (let i=1 ; i>selectedItems.length; i++ ){
+
+    //     if (selectedItems.length>4) {
+    //         alert('nooo')
+            
+    //     }
+
+    //    }
 
     }
 
