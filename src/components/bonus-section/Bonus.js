@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bonus = () => {
     return (
-<div style={{marginTop:'200px'}} className='mx-auto container '>
+<div style={{marginTop:'50px'}} className='mx-auto container '>
             <h6 className='m-4'>Props vs State:</h6>
 <li>	Props are read-only but States are asynchronous.</li>
 <li>	Props are immutabl on the other hand State is mutable. </li>
