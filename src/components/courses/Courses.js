@@ -43,12 +43,7 @@ const Courses = () => {
     
        console.log(newSelectedItems);
 
-
-
-   
        setSelectedItems(newSelectedItems)
-
-    
 
     }
 
@@ -56,8 +51,10 @@ const Courses = () => {
         setSelectedItems([])
     }
 
+
     return (
-        <div id='main'  className='w-100' >
+        <div id='main'  className='w-100+
+        ' >
             <div >
         <SelectedItems empty={empty} selectedItems={selectedItems}  ></SelectedItems>
         </div>

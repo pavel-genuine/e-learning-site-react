@@ -4,25 +4,29 @@ const SelectedItems = (props) => {
 
     const {selectedItems}=props
 
-    let names =[]
-    const images=[]
+    let content =[]
+    
 
     for (const item of selectedItems){
         const name =item.name
-        const image = item.img 
+        const image = item.img
 
-        names.push(name)
-        images.push(image)
+        const obj = [name,image]
+        content.push(obj)
+      
     }
-    let newNames = names.map(name=><li key={name} > {name}</li>)
-    const newimgs = images.map(image=>  <img style={{width:'50px'}} src={image} alt="" />)
+
+  
+    let newContent = content.map(element=><li key={element} ><img style={{width:'40px'}} src={element[1]} alt="" />  {element[0]}</li>)
 
     const [choose, setChoose] = useState('')
 
     const chooseOne = ()=>{
 
-        let i = Math.floor(Math.random() * names.length)
-        const oneName =names[i]
+        let i = Math.floor(Math.random() * content.length)
+        // let  = content.map(element=><li key={element} ><img style={{width:'40px'}} src={element[1]} alt="" />  {element[0]}  </li>)
+
+        const oneName =newContent[i]
         setChoose(oneName)
     }
 
@@ -31,7 +35,7 @@ const SelectedItems = (props) => {
         <div style={{margin:'30px', border:'2px solid blue', padding:'10px'}}>
              <div>
            <h6 className='text-center bg-primary text-white p-2'> Selected Courses :</h6>
-            {newNames}
+           {newContent}
         
 
         </div>
