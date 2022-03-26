@@ -1,0 +1,17 @@
+
+.courses{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+
+@media screen and (max-width:668px) {
+
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    
+}
+

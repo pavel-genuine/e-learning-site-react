@@ -4,7 +4,7 @@ import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 const Course = (props) => {
-    const {id,name, price, img}=props.course
+    const {name, price, img}=props.course
 
     return (
         <div style={{margin:'10px', position:'relative', height:'380px'}}  className='border border-primary rounded  '>

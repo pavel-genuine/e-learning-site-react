@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course.js/Course';
 import SelectedItems from '../selectedItems/SelectedItems';
+import './courses.css'
 
 const Courses = () => {
    
@@ -57,8 +58,8 @@ const Courses = () => {
 
     return (
         <div  className='row w-100' >
-        <div className='col-10'>
-        <div style={{display:'grid', gridTemplateColumns:'1fr 1fr 1fr'}}>
+        <div className='col-8'>
+        <div className='courses'>
             {
                 courses.map(course=><Course  key={course.id} handler={addSelected} course={course}> </Course>)
             }
