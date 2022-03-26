@@ -57,17 +57,18 @@ const Courses = () => {
     }
 
     return (
-        <div  className='row w-100' >
-        <div className='col-8'>
+        <div id='main'  className='w-100' >
+            <div >
+        <SelectedItems empty={empty} selectedItems={selectedItems}  ></SelectedItems>
+        </div>
+        <div >
         <div className='courses'>
             {
                 courses.map(course=><Course  key={course.id} handler={addSelected} course={course}> </Course>)
             }
         </div>
         </div>
-        <div className='col-2'>
-        <SelectedItems empty={empty} selectedItems={selectedItems}  ></SelectedItems>
-        </div>
+        
         </div>
     );
 };

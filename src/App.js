@@ -5,7 +5,7 @@ import Courses from './components/courses/Courses';
 function App() {
   return (
     <div  >
-    <h1 className='text-primary text-center m-4' >  Welcome To World of e-Learning</h1>
+    <h1 className='text-primary text-center m-4' >  World of e-Learning</h1>
       <Courses></Courses>
       
     </div>

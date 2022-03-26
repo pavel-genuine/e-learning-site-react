@@ -3,7 +3,11 @@
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
 }
-
+#main{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+   
+}
 
 @media screen and (max-width:668px) {
 
@@ -11,6 +15,11 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
         
+    }
+
+    #main{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
     
 }

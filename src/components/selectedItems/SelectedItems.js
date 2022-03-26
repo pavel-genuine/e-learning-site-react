@@ -28,20 +28,23 @@ const SelectedItems = (props) => {
 
 
     return (
-        <div>
+        <div style={{margin:'30px', border:'2px solid blue', padding:'10px'}}>
              <div>
-            Selected Items :
+           <h6 className='text-center bg-primary text-white p-2'> Selected Courses :</h6>
             {newNames}
         
 
         </div>
 
-      <button onClick={chooseOne} >Choose One For Me</button>
+      <button style={{margin:'10px', padding:'4px', border:'0', color:'white', backgroundColor:'blue'}} onClick={chooseOne} >Choose One</button>
 
-       <button onClick={props.empty} >Choose Again</button>
+       <button style={{margin:'10px', padding:'4px', border:'0', color:'white', backgroundColor:'blue'}} onClick={props.empty} >Choose Again</button>
 
 
-         <h6>Choosed One : {choose}</h6>
+         <div>
+             <h6>Choosed One :</h6> 
+             <h6>{choose} </h6>
+         </div>
 
 
        
