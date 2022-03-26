@@ -47,15 +47,12 @@ const Courses = () => {
    
        setSelectedItems(newSelectedItems)
 
-    //    for (let i=1 ; i>selectedItems.length; i++ ){
+    
 
-    //     if (selectedItems.length>4) {
-    //         alert('nooo')
-            
-    //     }
+    }
 
-    //    }
-
+    const empty = ()=>{
+        setSelectedItems([])
     }
 
     return (
@@ -68,7 +65,7 @@ const Courses = () => {
         </div>
         </div>
         <div className='col-2'>
-        <SelectedItems selectedItems={selectedItems}  ></SelectedItems>
+        <SelectedItems empty={empty} selectedItems={selectedItems}  ></SelectedItems>
         </div>
         </div>
     );

@@ -21,17 +21,11 @@ const SelectedItems = (props) => {
 
     const chooseOne = ()=>{
 
-        let i = Math.floor(Math.random() * 3)+1
+        let i = Math.floor(Math.random() * names.length)
         const oneName =names[i]
         setChoose(oneName)
     }
 
-    const [chooseAgain, setChooseAgain] =useState([])
-
-    const againChoose = ()=>{
-        newNames.length=0
-        setChooseAgain(names)
-    }
 
     return (
         <div>
@@ -43,8 +37,13 @@ const SelectedItems = (props) => {
         </div>
 
       <button onClick={chooseOne} >Choose One For Me</button>
-       <button onClick={againChoose} >Choose Again</button>
+
+       <button onClick={props.empty} >Choose Again</button>
+
+
          <h6>Choosed One : {choose}</h6>
+
+
        
         </div>
     );
