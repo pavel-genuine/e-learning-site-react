@@ -17,7 +17,7 @@ const Bonus = () => {
  useState is a reactjs Hook that allows you to have state variables in functional components. 
  You pass the initial state to this function and it returns a variable with
   the current state value (not necessarily the initial state) 
-  and another function to update this value.The square bracket means array destructuring whose 2nd element is a function which determine the value of 1st element.
+  and another function to update this value.The square bracket means array destructuring whose second element is a function which determine the value of first element.
 </div>
     );
 };
