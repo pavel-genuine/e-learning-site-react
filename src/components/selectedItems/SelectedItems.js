@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import './selectedItems.css'
 
 const SelectedItems = (props) => {
 
     const {selectedItems}=props
 
     let content =[]
-    
+
 
     for (const item of selectedItems){
         const name =item.name
@@ -13,18 +14,17 @@ const SelectedItems = (props) => {
 
         const obj = [name,image]
         content.push(obj)
-      
-    }
 
+    }
+    
   
     let newContent = content.map(element=><li key={element} ><img style={{width:'40px'}} src={element[1]} alt="" />  {element[0]}</li>)
 
-    const [choose, setChoose] = useState('')
+    const [choose, setChoose] = useState([])
 
     const chooseOne = ()=>{
 
         let i = Math.floor(Math.random() * content.length)
-        // let  = content.map(element=><li key={element} ><img style={{width:'40px'}} src={element[1]} alt="" />  {element[0]}  </li>)
 
         const oneName =newContent[i]
         setChoose(oneName)
@@ -32,7 +32,7 @@ const SelectedItems = (props) => {
 
 
     return (
-        <div style={{margin:'30px', border:'2px solid blue', padding:'10px'}}>
+        <div className='selected' style={{margin:'30px', border:'2px solid blue', padding:'10px'}}>
              <div>
            <h6 className='text-center bg-primary text-white p-2'> Selected Courses :</h6>
            {newContent}

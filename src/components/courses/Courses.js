@@ -41,20 +41,17 @@ const Courses = () => {
 
        
     
-       console.log(newSelectedItems);
-
        setSelectedItems(newSelectedItems)
 
     }
-
+ 
     const empty = ()=>{
         setSelectedItems([])
     }
 
 
     return (
-        <div id='main'  className='w-100+
-        ' >
+        <div id='main'  className='mx-auto container' >
             <div >
         <SelectedItems empty={empty} selectedItems={selectedItems}  ></SelectedItems>
         </div>
