@@ -18,6 +18,11 @@ const Bonus = () => {
  You pass the initial state to this function and it returns a variable with
   the current state value (not necessarily the initial state) 
   and another function to update this value.The square bracket means array destructuring whose second element is a function which determine the value of first element.
+
+  <h6 className='m-4'>How react works:</h6>   
+
+  React is a very popular JavaScript library which is component based , declarative. At its very core,React virtual DOM (a representation of UI synced with real DOM)  maintains a tree with efficient diff algorithms and fiber architecture on the nodes to make changes easy .
+  JSX (JavaScript XML), a syntactic sugar for creating very specific JavaScript objects works almost like HTML through babel. 
 </div>
     );
 };
