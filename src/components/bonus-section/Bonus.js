@@ -3,6 +3,10 @@ import React from 'react';
 const Bonus = () => {
     return (
 <div style={{marginTop:'50px'}} className='mx-auto container '>
+<h6 className='m-4'>How react works:</h6>   
+
+React is a very popular JavaScript library which is component based , declarative. At its very core,React virtual DOM (a representation of UI synced with real DOM)  maintains a tree with efficient diff algorithms and fiber architecture on the nodes to make changes easy .
+JSX (JavaScript XML), a syntactic sugar for creating very specific JavaScript objects works almost like HTML through babel. 
             <h6 className='m-4'>Props vs State:</h6>
 <li>	Props are read-only but States are asynchronous.</li>
 <li>	Props are immutabl on the other hand State is mutable. </li>
@@ -19,10 +23,7 @@ const Bonus = () => {
   the current state value (not necessarily the initial state) 
   and another function to update this value.The square bracket means array destructuring whose second element is a function which determine the value of first element.
 
-  <h6 className='m-4'>How react works:</h6>   
-
-  React is a very popular JavaScript library which is component based , declarative. At its very core,React virtual DOM (a representation of UI synced with real DOM)  maintains a tree with efficient diff algorithms and fiber architecture on the nodes to make changes easy .
-  JSX (JavaScript XML), a syntactic sugar for creating very specific JavaScript objects works almost like HTML through babel. 
+  
 </div>
     );
 };
