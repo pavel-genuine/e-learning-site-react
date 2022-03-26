@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Course from '../Course.js/Course';
+import Course from '../course/Course';
 import SelectedItems from '../selectedItems/SelectedItems';
 import './courses.css'
 
